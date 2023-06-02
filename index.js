@@ -5,6 +5,7 @@ const port = 3000; // Replace with your desired port number
 // Middleware to parse JSON bodies
 app.use(express.json());
 
+console.log("I am automatic deploed by github action workflow ci/cd");
 // Sample data
 const users = [
   { id: 1, name: "John Doe" },
