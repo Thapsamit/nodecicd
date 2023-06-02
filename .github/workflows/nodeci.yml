@@ -35,7 +35,6 @@ jobs:
         uses: appleboy/ssh-action@master
         with:
           host: 43.204.249.218
-          username: ubuntu-server
+          username: ubuntu
           key: ${{ secrets.DEPLOYMENT_KEY }}
-          port: 22
           script: whoami
