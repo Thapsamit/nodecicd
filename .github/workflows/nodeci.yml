@@ -37,8 +37,4 @@ jobs:
           host: 43.204.249.218
           username: ubuntu-server
           key: ${{ secrets.DEPLOYMENT_KEY }}
-          script: |
-            cd /home/ubuntu/nodecicd
-            git pull origin master
-            npm install --production
-            pm2 restart nodecicd
+          script: whoami
