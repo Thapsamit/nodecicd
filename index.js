@@ -11,7 +11,7 @@ const users = [
   { id: 2, name: "Jane Smith" },
 ];
 
-// GET /users
+// GET /user
 app.get("/users", (req, res) => {
   res.json(users);
 });
